@@ -20,7 +20,7 @@ namespace CorePersonApi
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseUrls("http://localhost:9874")
+                .UseUrls("http://localhost:9004")
                 .Build();
     }
 }
